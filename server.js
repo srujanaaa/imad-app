@@ -37,13 +37,13 @@ function craeteTemlate(data) {
     </div>
     <hr/>
     <h3>
-    S{heading}
+       ${heading}
     </h3>
     <div>
-    S{date}
+        ${date.todateString()}
     </div>
     <div>
-    S{content}
+    S   ${content}
     </div>
     </div>
     </body>
